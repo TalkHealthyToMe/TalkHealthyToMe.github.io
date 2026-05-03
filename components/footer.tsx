@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
-export function CallForParticipationSection() {
+export function Footer() {
   return (
     <section id="call-for-participation" className="py-16 md:py-24 bg-muted/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
