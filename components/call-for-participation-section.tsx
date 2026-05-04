@@ -49,7 +49,7 @@ export function CallForParticipationSection() {
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                   <p className="text-sm text-muted-foreground">
-                    Position papers should be 3-6 pages using the official ACM LaTeX or Word template
+                    Position papers should be a minimum of 250 words long using the official ACM LaTeX or Word template
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
