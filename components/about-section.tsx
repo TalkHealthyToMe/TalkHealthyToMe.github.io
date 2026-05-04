@@ -39,15 +39,49 @@ export function AboutSection() {
                   Important Dates
                 </CardTitle>
               </CardHeader>
+
               <CardContent className="space-y-6">
-                <div>
-                  <p className="text-sm text-muted-foreground mb-1">Submission Deadline</p>
-                  <p className="font-semibold text-foreground">June 04, 2026 AoE</p>
+                {/* Description */}
+                <div className="text-sm text-muted-foreground leading-relaxed">
+                  <p>
+                    The workshop offers a two-phase submission process designed to support
+                    timely planning and broader participation. This structure allows
+                    contributors who are ready earlier to benefit from reduced registration
+                    fees (early bird registration deadline is June 12), while still providing
+                    a second opportunity for later submissions.
+                  </p>
+                  <p className="mt-2">
+                    Authors can choose between two submission deadlines:
+                  </p>
                 </div>
+
+                {/* Deadline 1 */}
                 <div>
-                  <p className="text-sm text-muted-foreground mb-1">Acceptance Notification</p>
-                  <p className="font-semibold text-foreground">June 10, 2026 AoE</p>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Submission Deadline 1
+                  </p>
+                  <p className="font-semibold text-foreground">
+                    June 1, 2026 (AoE)
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    Notification: June 10, 2026 (AoE)
+                  </p>
                 </div>
+
+                {/* Deadline 2 */}
+                <div>
+                  <p className="text-sm text-muted-foreground mb-1">
+                    Submission Deadline 2
+                  </p>
+                  <p className="font-semibold text-foreground">
+                    June 26, 2026 (AoE)
+                  </p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    Notification: July 2, 2026 (AoE)
+                  </p>
+                </div>
+
+                {/* Email */}
                 <div className="pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground mb-2 flex items-center gap-2">
                     <Mail className="h-4 w-4" />
