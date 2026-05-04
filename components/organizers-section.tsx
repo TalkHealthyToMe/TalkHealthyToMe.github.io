@@ -7,21 +7,21 @@ const facilitators = [
     affiliation: "Carl von Ossietzky University of Oldenburg",
     description: "Research associate at the Institute for Health Services Research in the Big Data in Medicine research group. His work focuses on data-driven prevention strategies for migraine and human-computer interaction.",
     initials: "BB",
-    image: "",
+    image: "images/BastianBrandes.jpg",
   },
   {
     name: "María Dech Pons",
     affiliation: "Fraunhofer MEVIS Bremen",
     description: "Doctoral Researcher working in data science, biostatistics, and translation. Speaker of the early career research academy of the Leibniz Science Campus for Digital Public Health.",
     initials: "MP",
-    image: "",
+    image: "images/MariaDechPons.jpg",
   },
   {
     name: "Julia Heiken",
     affiliation: "Carl von Ossietzky University of Oldenburg",
     description: "Doctoral Researcher in the Department of Health Services Research focusing on Digital Health and digital interventions for smoking cessation.",
     initials: "JH",
-    image: "",
+    image: "images/JuliaHeiken.jpg",
   },
 ]
 
@@ -32,7 +32,7 @@ const chairs = [
     affiliation: "Fraunhofer MEVIS",
     description: "Senior Scientist focusing on the intersection of automated systems and HCI. Explores regulatory-compliant XAI approaches and applications for personalized health recommendations.",
     initials: "HD",
-    image: "",
+    image: "images/HenrikDetjen.jpg",
   },
   {
     name: "Thomas Essmeyer",
