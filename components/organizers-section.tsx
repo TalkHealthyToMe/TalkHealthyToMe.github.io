@@ -7,18 +7,21 @@ const facilitators = [
     affiliation: "Carl von Ossietzky University of Oldenburg",
     description: "Research associate at the Institute for Health Services Research in the Big Data in Medicine research group. His work focuses on data-driven prevention strategies for migraine and human-computer interaction.",
     initials: "BB",
+    image: "",
   },
   {
     name: "María Dech Pons",
     affiliation: "Fraunhofer MEVIS Bremen",
     description: "Doctoral Researcher working in data science, biostatistics, and translation. Speaker of the early career research academy of the Leibniz Science Campus for Digital Public Health.",
     initials: "MP",
+    image: "",
   },
   {
     name: "Julia Heiken",
     affiliation: "Carl von Ossietzky University of Oldenburg",
     description: "Doctoral Researcher in the Department of Health Services Research focusing on Digital Health and digital interventions for smoking cessation.",
     initials: "JH",
+    image: "",
   },
 ]
 
@@ -29,6 +32,7 @@ const chairs = [
     affiliation: "Fraunhofer MEVIS",
     description: "Senior Scientist focusing on the intersection of automated systems and HCI. Explores regulatory-compliant XAI approaches and applications for personalized health recommendations.",
     initials: "HD",
+    image: "",
   },
   {
     name: "Thomas Essmeyer",
@@ -36,6 +40,7 @@ const chairs = [
     affiliation: "University of Bremen",
     description: "Postdoc researcher coordinating a research cluster at the Leibniz Science Campus Digital Public Health. His work explores ethical caveats of interaction design in CUIs.",
     initials: "TE",
+    image: "",
   },
   {
     name: "Anke V. Reinschluessel",
@@ -43,6 +48,7 @@ const chairs = [
     affiliation: "University of Konstanz / University of Bayreuth",
     description: "Postdoc and HCI Group member. Research focuses on technologies to create and improve interfaces in the health context, including surgery and digital public health.",
     initials: "AR",
+    image: "",
   },
   {
     name: "Nadine Wagener",
@@ -50,6 +56,7 @@ const chairs = [
     affiliation: "OFFIS - Institute for Information Technology, Oldenburg",
     description: "Group leader focusing on personal pervasive technologies for everyday wellbeing, including VR design models and CUIs in VR for well-being.",
     initials: "NW",
+    image: "images/NadineWagener.jpg",
   },
 ]
 
@@ -78,10 +85,18 @@ export function OrganizersSection() {
             {facilitators.map((organizer, index) => (
               <Card key={index} className="group hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="pt-6 pb-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300">
-                    <span className="text-xl font-bold text-primary">
-                      {organizer.initials}
-                    </span>
+                  <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                    {organizer.image ? (
+                    <img 
+                      src={organizer.image}
+                      alt={organizer.name}
+                      className="w-full h-full object-cover"
+                    />
+                    ) : (
+                      <span className="text-xl font-bold text-primary">
+                        {organizer.initials}
+                      </span>
+                    )}
                   </div>
                   <h4 className="font-[family-name:var(--font-display)] font-semibold text-lg text-foreground mb-1 text-center">
                     {organizer.name}
@@ -105,10 +120,18 @@ export function OrganizersSection() {
             {chairs.map((organizer, index) => (
               <Card key={index} className="group hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="pt-6 pb-6">
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300">
-                    <span className="text-xl font-bold text-primary">
-                      {organizer.initials}
-                    </span>
+                  <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                    {organizer.image ? (
+                    <img 
+                      src={organizer.image}
+                      alt={organizer.name}
+                      className="w-full h-full object-cover"
+                    />
+                    ) : (
+                      <span className="text-xl font-bold text-primary">
+                        {organizer.initials}
+                      </span>
+                    )}
                   </div>
                   <h4 className="font-[family-name:var(--font-display)] font-semibold text-lg text-foreground mb-1 text-center">
                     {organizer.name}
