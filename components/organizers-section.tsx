@@ -120,15 +120,15 @@ export function OrganizersSection() {
             {chairs.map((organizer, index) => (
               <Card key={index} className="group hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="pt-6 pb-6">
-                  <div className="w-16 h-16 rounded-full overflow-hidden mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                  <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 bg-black flex items-center justify-center">
                     {organizer.image ? (
                     <img 
                       src={organizer.image}
                       alt={organizer.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover grayscale"
                     />
                     ) : (
-                      <span className="text-xl font-bold text-primary">
+                      <span className="text-xl font-bold text-white">
                         {organizer.initials}
                       </span>
                     )}
