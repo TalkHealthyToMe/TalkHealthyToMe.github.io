@@ -47,7 +47,7 @@ const chairs = [
   {
     name: "Nadine Wagener",
     role: "Publication Chair",
-    affiliation: "OFFIS Research Institute, Oldenburg",
+    affiliation: "OFFIS - Institute for Information Technology, Oldenburg",
     description: "Group leader focusing on personal pervasive technologies for everyday wellbeing, including VR design models and CUIs in VR for well-being.",
     initials: "NW",
   },
