@@ -29,9 +29,10 @@ export function AcceptedPapersSection() {
             <p className="text-muted-foreground">
               A proceedings of accepted papers will be listed here after the review process is complete.
             </p>
-            <p className="text-sm text-muted-foreground mt-4">
-              Acceptance notification: June 10, 2026
-            </p>
+            <div className="text-sm text-muted-foreground mt-4 space-y-1">
+              <p>Acceptance notification (Deadline 1): June 10, 2026 (AoE)</p>
+              <p>Acceptance notification (Deadline 2): July 2, 2026 (AoE)</p>
+            </div>
           </CardContent>
         </Card>
       </div>
