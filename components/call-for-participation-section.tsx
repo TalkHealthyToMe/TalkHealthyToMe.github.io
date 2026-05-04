@@ -39,7 +39,7 @@ export function CallForParticipationSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                We welcome position papers of 3-6 pages following the official ACM LaTeX or Word template with the document setup for publishing (submissions do not need to be anonymized).
+                We welcome position papers with a minimum of 250 words or longer submission of 3-6 pages following the official ACM LaTeX or Word template with the document setup for publishing (submissions do not need to be anonymized).
               </p>
               <p className="text-muted-foreground">
                 Submissions can describe ongoing and preliminary work, disciplinary perspectives, or practical case studies relevant to the workshop themes.

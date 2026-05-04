@@ -27,10 +27,10 @@ export function AcceptedPapersSection() {
               Coming Soon
             </h3>
             <p className="text-muted-foreground">
-              Accepted papers will be listed here after the review process is complete.
+              A proceedomg of accepted papers will be listed here after the review process is complete.
             </p>
             <p className="text-sm text-muted-foreground mt-4">
-              Acceptance notification: June 14, 2026
+              Acceptance notification: June 10, 2026
             </p>
           </CardContent>
         </Card>

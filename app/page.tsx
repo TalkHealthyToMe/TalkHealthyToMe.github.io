@@ -16,8 +16,8 @@ export default function HomePage() {
         <AboutSection />
         <GoalsSection />
         <OrganizersSection />
-        <AcceptedPapersSection />
         <CallForParticipationSection />
+        <AcceptedPapersSection />
       </main>
       <Footer />
     </div>

@@ -42,11 +42,11 @@ export function AboutSection() {
               <CardContent className="space-y-6">
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Submission Deadline</p>
-                  <p className="font-semibold text-foreground">May 31, 2026</p>
+                  <p className="font-semibold text-foreground">June 04, 2026 AoE</p>
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Acceptance Notification</p>
-                  <p className="font-semibold text-foreground">June 14, 2026</p>
+                  <p className="font-semibold text-foreground">June 10, 2026 AoE</p>
                 </div>
                 <div className="pt-4 border-t border-border">
                   <p className="text-sm text-muted-foreground mb-2 flex items-center gap-2">
