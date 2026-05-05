@@ -48,7 +48,7 @@ const chairs = [
     affiliation: "University of Konstanz / University of Bayreuth",
     description: "Postdoc and HCI Group member. Research focuses on technologies to create and improve interfaces in the health context, including surgery and digital public health.",
     initials: "AR",
-    image: "",
+    image: "images/AnkeVReinschluessel.webp",
   },
   {
     name: "Nadine Wagener",
