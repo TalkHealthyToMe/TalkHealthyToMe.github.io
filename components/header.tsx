@@ -10,8 +10,8 @@ const navItems = [
   { href: "#about", label: "About the Workshop" },
   { href: "#goals", label: "Workshop Goals" },
   { href: "#organizers", label: "Organizers" },
-  { href: "#accepted-papers", label: "Accepted Papers" },
   { href: "#call-for-participation", label: "Call for Participation" },
+  { href: "#accepted-papers", label: "Accepted Papers" },
 ]
 
 export function Header() {
