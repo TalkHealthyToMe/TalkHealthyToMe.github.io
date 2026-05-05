@@ -64,7 +64,7 @@ export function AboutSection() {
                     June 1, 2026 (AoE)
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
-                    Notification: June 10, 2026 (AoE)
+                    Notification of Acceptance: June 10, 2026 (AoE)
                   </p>
                 </div>
 
@@ -77,7 +77,7 @@ export function AboutSection() {
                     June 26, 2026 (AoE)
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
-                    Notification: July 2, 2026 (AoE)
+                    Notification of Acceptance: July 2, 2026 (AoE)
                   </p>
                 </div>
 
