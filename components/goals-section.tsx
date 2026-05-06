@@ -32,7 +32,7 @@ export function GoalsSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 md:mb-16">
           <Badge variant="outline" className="mb-4">
-            Workshop Objectives
+            What to Expect
           </Badge>
           <h2 className="font-[family-name:var(--font-display)] text-3xl md:text-4xl font-bold text-foreground mb-4">
             Workshop Goals
