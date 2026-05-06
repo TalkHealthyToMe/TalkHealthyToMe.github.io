@@ -49,6 +49,7 @@ export function CallForParticipationSection() {
                   official ACM template
                 </a>{" "}
                 (LaTeX or Word) with the document setup for publishing. For LaTeX submissions, please use \documentclass[sigconf]{acmart}. Submissions do not need to be anonymized.
+              </p>
               <p className="text-muted-foreground">
                 Submissions can describe ongoing and preliminary work, disciplinary perspectives, or practical case studies relevant to the workshop themes.
               </p>
