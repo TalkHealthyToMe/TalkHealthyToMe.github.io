@@ -39,8 +39,16 @@ export function CallForParticipationSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                We welcome position papers with a minimum of 250 words expressing your fields of interest or longer submission of up to 5 pages following the official ACM LaTeX or Word template with the document setup for publishing (submissions do not need to be anonymized).
-              </p>
+                We welcome position papers with a minimum of 250 words expressing your fields of interest or longer submissions of up to 5 pages. All submissions must follow the{" "}
+                <a
+                  href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  official ACM template
+                </a>{" "}
+                (LaTeX or Word) with the document setup for publishing. For LaTeX submissions, please use \documentclass[sigconf]{acmart}. Submissions do not need to be anonymized.
               <p className="text-muted-foreground">
                 Submissions can describe ongoing and preliminary work, disciplinary perspectives, or practical case studies relevant to the workshop themes.
               </p>
@@ -49,7 +57,16 @@ export function CallForParticipationSection() {
                 <div className="flex items-start gap-3">
                   <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 shrink-0" />
                   <p className="text-sm text-muted-foreground">
-                    Position papers should be a minimum of 250 words long using the official ACM LaTeX or Word template
+                    Position papers should be a minimum of 250 words and must use the{" "}
+                    <a
+                      href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline"
+                    >
+                      official ACM template
+                    </a>{" "}
+                    (LaTeX or Word).
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
