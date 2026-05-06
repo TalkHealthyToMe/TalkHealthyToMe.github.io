@@ -40,7 +40,7 @@ const chairs = [
     affiliation: "University of Bremen",
     description: "Postdoc researcher coordinating a research cluster at the Leibniz Science Campus Digital Public Health. His work explores ethical caveats of interaction design in CUIs.",
     initials: "TE",
-    image: "images/ThomasEßmeyer.webp",
+    image: "images/ThomasEssmeyer.webp",
   },
   {
     name: "Anke V. Reinschluessel",
