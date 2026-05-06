@@ -21,7 +21,7 @@ const goals = [
     number: "03",
     icon: Lightbulb,
     title: "Design Framework",
-    description: "Good practice of technical translation of ethical concepts - Discussing how ethical principles can be translated into the design and development of CUIs for Digital Health interventions.",
+    description: "Discussion of best practices for translating ethical concepts into technical implementation, focusing on how ethical principles can inform the design and development of CUIs for digital health interventions.",
     color: "bg-primary/10 text-primary",
   },
 ]
