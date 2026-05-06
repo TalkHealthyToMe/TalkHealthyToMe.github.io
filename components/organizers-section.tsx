@@ -40,7 +40,7 @@ const chairs = [
     affiliation: "University of Bremen",
     description: "Postdoc researcher coordinating a research cluster at the Leibniz Science Campus Digital Public Health. His work explores ethical caveats of interaction design in CUIs.",
     initials: "TE",
-    image: "",
+    image: "images/ThomasEßmeyer.webp",
   },
   {
     name: "Anke V. Reinschluessel",
@@ -48,7 +48,7 @@ const chairs = [
     affiliation: "University of Konstanz / University of Bayreuth",
     description: "Postdoc and HCI Group member. Research focuses on technologies to create and improve interfaces in the health context, including surgery and digital public health.",
     initials: "AR",
-    image: "",
+    image: "images/AnkeVReinschluessel.webp",
   },
   {
     name: "Nadine Wagener",
