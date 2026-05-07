@@ -48,7 +48,7 @@ export function CallForParticipationSection() {
                 >
                   official ACM template
                 </a>{" "}
-                (LaTeX or Word) with the document setup for publishing. For LaTeX submissions, please use {" "}
+                with the document setup for publishing. For LaTeX submissions, please use {" "}
                 <span className="font-mono">\documentclass[sigconf]&#123;acmart&#125;</span>. Submissions do not need to be anonymized.
               </p>
               <p className="text-muted-foreground">
@@ -68,7 +68,7 @@ export function CallForParticipationSection() {
                     >
                       official ACM template
                     </a>{" "}
-                    (LaTeX or Word).
+                    .
                   </p>
                 </div>
                 <div className="flex items-start gap-3">
