@@ -29,19 +29,6 @@ export function AboutSection() {
               </p>
             </div>
           </div>
-            {/* Email */}
-            <div className="pt-4 border-t border-border">
-              <p className="text-sm text-muted-foreground mb-2 flex items-center gap-2">
-                <Mail className="h-4 w-4" />
-                Send position papers to
-              </p>
-              <a 
-                href="mailto:cuisindiph2026@proton.me" 
-                className="font-medium text-primary hover:underline break-all"
-              >
-                cuisindiph2026@proton.me
-              </a>
-            </div>
         </div>
       </div>
     </section>
