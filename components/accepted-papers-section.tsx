@@ -1,19 +1,23 @@
 import { FileText } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
+import Link from "next/link"
 
 const acceptedPapers = [
   {
     title: "Designing LLM chatbots for Digital Public Health: co-design with psychologists",
     authors: "Gubing Wang, Tilburg University",
+    pdf: "/papers/Designing_LLM_chatbots_for_Digital_Public_Health_co_design_with.pdf",
   },
   {
     title: "Position Paper on Talking to Heirlooms: Exploring Embodiments of Conversational Agents for People with Dementia",
     authors: "Adhityan Raja, Einhoven University of Technology",
+    pdf: "/papers/Position Paper Heirloom CUI Healthy To Me.pdf",
   },
   {
     title: "Applying Comparative Research Techniques in Answering Health Questions",
     authors: "Sajad Shirali-Shahreza & Mohamad Khorsandi, Amirkabir University",
+    pdf: "/papers/ShiraliShahreza-ComparativeHealthQA-CameraReady.pdf",
   },
 ]
 
@@ -45,9 +49,14 @@ export function AcceptedPapersSection() {
 
                 <div>
                   <h3 className="font-[family-name:var(--font-display)] text-xl font-semibold text-foreground mb-2">
+                    <Link
+                      href={paper.pdf}
+                      target="_blank"
+                      className="text-foreground hover:text-primary hover:underline underline-offset-4 transition-colors"
+                    >
                     {paper.title}
+                    </Link>
                   </h3>
-
                   <p className="text-muted-foreground">
                     {paper.authors}
                   </p>
