@@ -38,32 +38,35 @@ export function AcceptedPapersSection() {
             Position papers and contributions accepted for presentation at the workshop.
           </p>
         </div>
-
+        {acceptedPapers.map((paper, index) => (
+        <Link
+          key={index}
+          href={paper.pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <Card className="transition-all hover:shadow-lg hover:border-primary/40 hover:-translate-y-1 cursor-pointer">
+            <CardContent className="flex gap-4 items-start p-6">
+              <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center shrink-0">
+                <FileText className="h-6 w-6 text-muted-foreground" />
+              </div>
+      
+              <div>
+                <h3 className="font-[family-name:var(--font-display)] text-xl font-semibold text-foreground mb-2">
+                  {paper.title}
+                </h3>
+      
+                <p className="text-muted-foreground">
+                  {paper.authors}
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
+      ))}
         <div className="space-y-6 max-w-4xl mx-auto">
-          {acceptedPapers.map((paper, index) => (
-            <Card key={index}>
-              <CardContent className="flex gap-4 items-start p-6">
-                <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center shrink-0">
-                  <FileText className="h-6 w-6 text-muted-foreground" />
-                </div>
 
-                <div>
-                  <h3 className="font-[family-name:var(--font-display)] text-xl font-semibold text-foreground mb-2">
-                    <Link
-                      href={paper.pdf}
-                      target="_blank"
-                      className="text-foreground hover:text-primary hover:underline underline-offset-4 transition-colors"
-                    >
-                    {paper.title}
-                    </Link>
-                  </h3>
-                  <p className="text-muted-foreground">
-                    {paper.authors}
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
         </div>
       </div>
     </section>
