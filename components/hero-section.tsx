@@ -26,6 +26,13 @@ export function HeroSection() {
             Opportunities and Challenges of Conversational User Interfaces for Digital Public Health
           </p>
 
+          <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+            The workshop is open to everyone attending the CUI 2026 conference—not only
+            authors of accepted workshop papers. We warmly welcome researchers,
+            practitioners, students, and anyone interested in conversational user
+            interfaces for digital public health.
+          </p>
+
           <div className="mt-10 inline-flex items-center rounded-full border border-border/50 bg-card/50 backdrop-blur-sm px-6 py-3 text-sm text-muted-foreground">
             This CUI 2026 workshop will take place in-person in Bremen, Germany as part of the ACM Conversational User Interface conference (CUI).
           </div>
